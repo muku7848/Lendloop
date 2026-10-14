@@ -4,8 +4,8 @@
 // Get them from: https://supabase.com/dashboard → your project → Settings → API
 // ============================================================
 
-const SUPABASE_URL = 'https://YOUR_PROJECT_ID.supabase.co';
-const SUPABASE_ANON_KEY = 'YOUR_ANON_PUBLIC_KEY';
+const SUPABASE_URL = 'https://sgsqbwlunpricauiyuef.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_rp4U_lh1HoPjS70bZ3RScg_qBnqPq4W';
 
 // Initialize Supabase client (loaded via CDN in HTML)
 let supabaseClient = null;
