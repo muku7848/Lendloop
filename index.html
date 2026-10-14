@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LendLoop – Rental Marketplace</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header style="background:#fff;border-bottom:2px solid #0B0B0F">
+  <div class="wrap row" style="justify-content:space-between;min-height:72px">
+    <div style="font:800 22px 'Bricolage Grotesque',sans-serif;color:#1F3BFF">LendLoop</div>
+    <nav class="row" style="gap:28px;font-weight:500"><a href="#browse">Browse items</a><a href="#book">Book</a><a href="#owners">For owners</a></nav>
+    <div class="row"><button class="btn alt">Log in</button><button class="btn">List an item</button></div>
+  </div>
+</header>
+
+<section class="sec" style="padding-bottom:56px">
+  <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:48px;align-items:center">
+    <div>
+      <span class="tag">Rent cameras, tools and more</span>
+      <h1 style="font-size:60px;line-height:1.02;margin:20px 0">Borrow what you need. Lend what you don't.</h1>
+      <p style="font-size:18px;line-height:1.6;max-width:480px;margin:0 0 28px" class="muted">A rental platform where owners list gear, renters check live availability and send booking requests, and owners approve or decline.</p>
+      <div class="card row" style="padding:10px;max-width:520px">
+        <input aria-label="Search items" placeholder="Camera, drill, tripod…" style="flex:1;min-width:140px;min-height:44px;border:0;padding:0 10px;outline:none">
+        <button class="btn">Search</button>
+      </div>
+    </div>
+    <div class="card" style="padding:28px;background:#1F3BFF;border-color:#1F3BFF;color:#fff">
+      <div style="font:700 13px 'DM Sans',sans-serif;letter-spacing:.08em">HOW IT WORKS</div>
+      <ol style="margin:16px 0 0;padding-left:22px;line-height:2;font-size:18px">
+        <li>Find an item and pick your dates</li>
+        <li>Send a booking request</li>
+        <li>The owner approves or declines</li>
+        <li>Pick up, use, return</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="browse" class="sec alt">
+  <div class="wrap">
+    <div class="row" style="justify-content:space-between;margin-bottom:28px">
+      <div><span class="tag">Feature 1</span><h2 style="font-size:36px;margin-top:10px">Item listings</h2></div>
+      <div class="row"><button class="btn">All</button><button class="btn alt">Cameras</button><button class="btn alt">Tools</button></div>
+    </div>
+    <div class="grid4">
+      <article class="card"><div class="img" style="background:#FFD60A">[Photo: camera]</div><div style="padding:18px"><h3 style="font-size:20px">Mirrorless camera kit</h3><p class="muted" style="margin:6px 0 14px;font-size:14px">Body, lens, 2 batteries</p><div class="row" style="justify-content:space-between"><b>₹[price]/day</b><span class="tag">Available</span></div></div></article>
+      <article class="card"><div class="img" style="background:#FF8A00">[Photo: drill]</div><div style="padding:18px"><h3 style="font-size:20px">Cordless hammer drill</h3><p class="muted" style="margin:6px 0 14px;font-size:14px">With bit set and case</p><div class="row" style="justify-content:space-between"><b>₹[price]/day</b><span class="tag">Available</span></div></div></article>
+      <article class="card"><div class="img" style="background:#22D3EE">[Photo: tripod]</div><div style="padding:18px"><h3 style="font-size:20px">Carbon fibre tripod</h3><p class="muted" style="margin:6px 0 14px;font-size:14px">Fluid head included</p><div class="row" style="justify-content:space-between"><b>₹[price]/day</b><span class="tag">Available</span></div></div></article>
+      <article class="card"><div class="img" style="background:#FF4F9A">[Photo: laser level]</div><div style="padding:18px"><h3 style="font-size:20px">Laser level</h3><p class="muted" style="margin:6px 0 14px;font-size:14px">Self-levelling, tripod mount</p><div class="row" style="justify-content:space-between"><b>₹[price]/day</b><span class="tag red">Booked soon</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="sec">
+  <div class="wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px">
+    <div class="card" style="padding:28px">
+      <span class="tag">Feature 2</span>
+      <h2 style="font-size:32px;margin:10px 0 4px">Availability calendar</h2>
+      <p class="muted" style="margin:0 0 20px">Mirrorless camera kit · October</p>
+      <div class="cal">
+        <b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b><b>Sun</b>
+        <i class="d">1</i><i class="d">2</i><i class="d">3</i><i class="d">4</i><i class="d">5</i><i class="d b">6</i><i class="d b">7</i>
+        <i class="d">8</i><i class="d">9</i><i class="d">10</i><i class="d">11</i><i class="d">12</i><i class="d">13</i><i class="d">14</i>
+        <i class="d">15</i><i class="d s">16</i><i class="d s">17</i><i class="d s">18</i><i class="d">19</i><i class="d">20</i><i class="d">21</i>
+        <i class="d">22</i><i class="d b">23</i><i class="d b">24</i><i class="d b">25</i><i class="d">26</i><i class="d">27</i><i class="d">28</i>
+        <i class="d">29</i><i class="d">30</i><i class="d">31</i>
+      </div>
+      <div class="row muted" style="margin-top:18px;font-size:13px;gap:18px"><span>■ Selected</span><span>■ Booked by others</span></div>
+    </div>
+    <div class="card" style="padding:28px">
+      <span class="tag">Feature 3</span>
+      <h2 style="font-size:32px;margin:10px 0 20px">Booking request</h2>
+      <label for="d1" style="font-weight:700;font-size:14px">Dates</label>
+      <input id="d1" class="field" value="16 Oct – 18 Oct" style="min-height:44px;margin:6px 0 16px">
+      <label for="m1" style="font-weight:700;font-size:14px">Message to owner</label>
+      <textarea id="m1" class="field" rows="4" placeholder="What will you use it for?" style="margin:6px 0 20px;padding:12px"></textarea>
+      <button class="btn" style="width:100%">Send booking request</button>
+      <p class="muted" style="margin:14px 0 0;font-size:13px">Status after sending: Pending owner approval.</p>
+    </div>
+  </div>
+</section>
+
+<section id="owners" class="sec alt">
+  <div class="wrap">
+    <span class="tag">Feature 4 · Two-sided roles</span>
+    <h2 style="font-size:36px;margin:10px 0 8px">Owner dashboard</h2>
+    <p class="muted" style="margin:0 0 28px;max-width:560px">Owners see incoming requests and approve or decline each one. Renters follow the status of their own requests.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px">
+      <div class="card" style="padding:22px">
+        <div class="row" style="justify-content:space-between"><h3 style="font-size:20px">Mirrorless camera kit</h3><span class="tag pending">Pending</span></div>
+        <p class="muted" style="margin:8px 0 18px">[Renter name] · 16 Oct – 18 Oct</p>
+        <div class="row"><button class="btn">Approve</button><button class="btn no">Decline</button></div>
+      </div>
+      <div class="card" style="padding:22px">
+        <div class="row" style="justify-content:space-between"><h3 style="font-size:20px">Cordless hammer drill</h3><span class="tag">Approved</span></div>
+        <p class="muted" style="margin:8px 0 18px">[Renter name] · 22 Oct – 23 Oct</p>
+        <p style="margin:0;font-size:14px;color:#0A1FCC">Dates now blocked on the calendar.</p>
+      </div>
+      <div class="card" style="padding:22px">
+        <div class="row" style="justify-content:space-between"><h3 style="font-size:20px">Laser level</h3><span class="tag red">Declined</span></div>
+        <p class="muted" style="margin:8px 0 18px">[Renter name] · 6 Oct – 7 Oct</p>
+        <p class="muted" style="margin:0;font-size:14px">Dates stay open for other renters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#0B0B0F;color:#fff;padding:40px 0">
+  <div class="wrap row" style="justify-content:space-between">
+    <div><div style="font:800 20px 'Bricolage Grotesque',sans-serif">LendLoop</div><div style="margin-top:6px;font-size:14px">Built by Mukund Kumar Soni · NIAT Generative AI Project #24</div></div>
+    <div class="row" style="gap:24px;font-size:14px"><span>GitHub</span><span>LinkedIn</span><span>Contact</span></div>
+  </div>
+</footer>
+
+</body>
+</html>
